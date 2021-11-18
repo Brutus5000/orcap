@@ -1,0 +1,9 @@
+spring:
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          issuer-uri: ${ORCAP_OIDC_ISSUER}
+
+orcap:
+  content-directory: "/content"
