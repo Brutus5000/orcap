@@ -1,0 +1,18 @@
+spring:
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          issuer-uri: https://hydra.test.faforever.com/
+
+orcap:
+  required-scope: lobby
+  content-directory: ./content
+  patch-directory: ./content
+
+server:
+  port: 8090
+
+logging:
+  level:
+    net.brutus5000: DEBUG

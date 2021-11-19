@@ -1,0 +1,22 @@
+spring:
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          issuer-uri: https://hydra.test.faforever.com/
+
+orcap:
+  required-scope: lobby
+  content-directory: ./content
+  proxy-cache-config:
+    uplink-url: http://localhost:8090
+    self-url: http://localhost:8091
+    region: eu
+    node-id: eu-1
+
+server:
+  port: 8091
+
+logging:
+  level:
+    net.brutus5000: DEBUG

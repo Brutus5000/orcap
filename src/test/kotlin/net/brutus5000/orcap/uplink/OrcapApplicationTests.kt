@@ -1,4 +1,4 @@
-package net.brutus5000.orcap
+package net.brutus5000.orcap.uplink
 
 import org.junit.jupiter.api.Test
 import org.springframework.boot.test.context.SpringBootTest

@@ -6,7 +6,7 @@ build/
 !**/src/test/**/build/
 
 # Custom test profiles
-application-*.yml
+src/main/resources/application-*.yml
 
 ### Test download content from app
 content/

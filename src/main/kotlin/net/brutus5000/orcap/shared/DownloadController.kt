@@ -28,8 +28,8 @@ class DownloadController(
     val requiredScope = "SCOPE_" + orcapProperties.requiredScope
 
     /**
-     * Patch download endpoint that passes through any file name including subdirectories.
-     * Requires the lobby scope, as this ensures that the user has a verified copy of FA.
+     * Download endpoint that passes through any file name including subdirectories.
+     * Requires the configured scope from the properties.
      */
     @GetMapping("/{*fileName}")
     @PreAuthorize("hasAuthority(@downloadController.getRequiredScope())")
