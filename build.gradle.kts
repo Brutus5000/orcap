@@ -1,17 +1,17 @@
 
 
 plugins {
-    val kotlinVersion = "1.5.31"
+    val kotlinVersion = "1.6.0"
 
     kotlin("jvm") version kotlinVersion
     kotlin("plugin.spring") version kotlinVersion
-    id("org.springframework.boot") version "2.5.6"
+    id("org.springframework.boot") version "2.6.1"
     id("io.spring.dependency-management") version "1.0.11.RELEASE"
     id("com.google.cloud.tools.jib") version "3.1.4"
 
     // /****** Additional tooling *****/
     // Code formatting
-    id("com.diffplug.spotless") version "5.12.5"
+    id("com.diffplug.spotless") version "6.0.1"
 }
 
 group = "net.brutus5000"
@@ -44,7 +44,7 @@ dependencies {
 }
 
 spotless {
-    val ktlintVersion = "0.42.1"
+    val ktlintVersion = "0.43.2"
     kotlin {
         ktlint(ktlintVersion)
     }
