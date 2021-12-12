@@ -11,7 +11,7 @@ plugins {
 
     // /****** Additional tooling *****/
     // Code formatting
-    id("com.diffplug.spotless") version "6.0.1"
+    id("com.diffplug.spotless") version "6.0.4"
 }
 
 group = "net.brutus5000"
