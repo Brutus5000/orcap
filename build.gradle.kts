@@ -29,7 +29,7 @@ repositories {
 }
 
 dependencies {
-    implementation("io.github.microutils:kotlin-logging:1.5.9")
+    implementation("io.github.microutils:kotlin-logging:2.1.16")
     implementation("org.springframework.boot:spring-boot-starter-actuator")
     implementation("org.springframework.boot:spring-boot-starter-webflux")
     implementation("com.fasterxml.jackson.module:jackson-module-kotlin")
