@@ -6,7 +6,7 @@ plugins {
     kotlin("jvm") version kotlinVersion
     kotlin("plugin.spring") version kotlinVersion
     id("org.springframework.boot") version "2.6.6"
-    id("io.spring.dependency-management") version "1.0.11.RELEASE"
+    id("io.spring.dependency-management") version "1.0.14.RELEASE"
     id("com.google.cloud.tools.jib") version "3.2.1"
 
     // /****** Additional tooling *****/
